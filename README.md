@@ -2,7 +2,7 @@
 
 One-click Excel VBA pipeline that turns the monthly NHS England A&E CSV into a regional 4-hour performance report, with a summary table, chart and PDF.
 
-![Summary report](screenshots/summary.png)
+![Summary report](summary_AE.png)
 
 ## Overview
 
@@ -57,14 +57,11 @@ Tested on October 2026 and September 2026 data without code changes.
 ## Project structure
 
 ```
-├── AE_Automation.xlsm          Excel workbook with macros and Control button
-├── src/
-│   └── AE_Automation.bas       VBA source code (readable on GitHub)
-├── sample_output/
-│   └── AE_Summary_2026-10.pdf  Example report
-└── screenshots/
-    ├── control.png
-    └── summary.png
+├── AE_Automation.xlsm        Excel workbook with macros and Control button
+├── AE_Automation.bas         VBA source code (readable on GitHub)
+├── AE_Summary_2026-10.pdf    Example report
+├── summary_AE.png            Summary sheet screenshot
+└── control_AE.png            Control sheet screenshot
 ```
 
 ## Possible improvements
